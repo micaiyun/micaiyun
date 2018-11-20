@@ -50,7 +50,7 @@ EOF
   git add .
   git commit -m "Build by Travis CI"
   #git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-  git push --force --quiet "https://micaiyun2018:${TE_TOKEN}@${CO_REF}" master:master
+  git push --force --quiet "https://${TE_TOKEN}@${CO_REF}" master:master
 }
 
 case $1 in
