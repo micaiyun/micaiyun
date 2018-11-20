@@ -1,6 +1,6 @@
 ---
 title: SpringBoot | 第一章：第一个SpringBoot应用
-categories
+categories:
     - SpringBoot
 tags:
     - java
@@ -8,7 +8,10 @@ tags:
     - spring boot 
 ---
 
-## SpringBoot | 第一章：第一个SpringBoot应用
+### SpringBoot | 第一章：第一个SpringBoot应用(非原创)
+
+> [原文](https://blog.lqdev.cn/2018/07/11/springboot/chapter-one/)
+
 
 ### springboot简单介绍
 
@@ -244,7 +247,7 @@ public class DemoController {
 
 访问：<http://127.0.0.1:8888/chapter1/demo>
 
-[![img](http://https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/87292757.jpg)](https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/87292757.jpg)
+[![img](https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/87292757.jpg)](https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/87292757.jpg)
 
 **自此，一个简单的SpringBoot就开发完成了。比起原来的springmvc时的开发效率，简直是一个质的飞跃，无需再烦扰烦人的xml配置文件了。终于可以快乐的撸代码了~**
 
