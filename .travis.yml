@@ -39,9 +39,6 @@ after_script:
 
 # E: Build LifeCycle
 
-branches:
-  only:
-    - pages
 env:
  global:
    - GH_REF: github.com/micaiyun/micaiyun.github.io.git
