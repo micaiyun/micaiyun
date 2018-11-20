@@ -44,7 +44,7 @@ gitalk:
     distractionFreeMode: false
 
 # 网站关键字
-keywords: Fechin
+keywords:
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
 google_analytics: 
@@ -54,3 +54,8 @@ favicon: /img/favicon.png
 
 # rss文件
 rss: atom.xml
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml

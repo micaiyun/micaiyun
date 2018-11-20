@@ -4,10 +4,10 @@
 
 # Site
 title: 迷彩云
-subtitle: 技术 信息 收集
-description:
-keywords: 迷彩云
-author: John Doe
+subtitle: 专注Java技术分享
+description: 迷彩云 是一个专注于 Java  技术分享的博客,为Java开发者提供有价值的内容. 包括：Java Web开发和其他的Java技术相关的分享。
+keywords: 迷彩云,Java,Spring,SpringBoot,SpringCloud,Docker,微服务
+author: 云
 language:
 timezone:
 
