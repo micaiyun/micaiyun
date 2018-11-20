@@ -21,14 +21,15 @@ function failure(){
 #默认执行
 function default(){
 
-#  git clone https://${GH_REF} .deploy_git
-#  cd .deploy_git
-#
-#  git checkout master
-#  cd ../
-#
-#  mv .deploy_git/.git/ ./public/
+  git clone https://${CO_REF} .deploy_git
+  cd .deploy_git
+
+  git checkout master
+  cd ../
+
+  mv .deploy_git/.git/ ./public/
   cd ./public
+
 cat <<EOF >> README.md
 部署状态 | 集成结果 | 参考值
 ---|---|---
@@ -48,8 +49,8 @@ EOF
   git config user.email "micaiyun@126.com"
   git add .
   git commit -m "Build by Travis CI"
-  git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-  git push --force --quiet "https://qinyuanpei:${TE_TOKEN}@${CO_REF}" master:master
+  #git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  git push --force --quiet "https://micaiyun2018:${TE_TOKEN}@${CO_REF}" master:master
 }
 
 case $1 in
