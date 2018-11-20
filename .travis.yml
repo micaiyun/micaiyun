@@ -42,4 +42,4 @@ after_script:
 env:
  global:
    - GH_REF: github.com/micaiyun/micaiyun.github.io.git
-   - CO_REF: https://git.dev.tencent.com/micaiyun2018/micaiyun.git
+   - CO_REF: git.dev.tencent.com/micaiyun2018/micaiyun.git
