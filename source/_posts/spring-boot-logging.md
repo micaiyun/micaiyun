@@ -1,5 +1,6 @@
 
 ---
+date: 2018/11/18 20:46:25
 title: SpringBoot | 第四章：日志配置
 categories:
     - SpringBoot
@@ -8,7 +9,7 @@ tags:
     - spring
     - spring boot 
 ---
-> 非原创 [原文](https://blog.lqdev.cn/2018/07/14/springboot/chapter-third/)
+> 非原创 [原文](http://blog.didispace.com/springbootlog/)
 
 
 Spring Boot在所有内部日志中使用[Commons Logging](http://commons.apache.org/proper/commons-logging/)，但是默认配置也提供了对常用日志的支持，如：[Java Util Logging](http://docs.oracle.com/javase/7/docs/api/java/util/logging/package-summary.html)，[Log4J](http://logging.apache.org/log4j/), [Log4J2](http://logging.apache.org/log4j/)和[Logback](http://logback.qos.ch/)。每种Logger都可以通过配置使用控制台或者文件输出日志内容。
