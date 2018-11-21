@@ -54,7 +54,7 @@ dependencies {
 
 ### 在`IDE`中触发重新启动
 
-只要`classpath`中的类发生了改变，就会触发重新启动。所以在IDE中只改`.java`文件不够的 ，需要更新`classpaht`中的`.class`文件。
+只要`classpath`中的类发生了改变，就会触发重新启动。所以在IDE中只改`.java`文件不够的 ，需要更新`classpath`中的`.class`文件。
 
 使用IntelliJ IDEA时，你需要手动构建项目（`Ctrl + F9`或`Build→Build Project`），或者将IDEA设置为自动构建，你也可以打开Spring Boot运行配置并定义触发应用程序更新条件（`Ctrl + F10`）：
 
