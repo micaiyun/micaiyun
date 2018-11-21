@@ -10,9 +10,12 @@ tags:
     - spring boot 
     - devtools
 ---
-> 英语 [原文](https://www.vojtechruzicka.com/spring-boot-devtools)
+
 [![Spring Boot DevTools](https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/spring-dev-tools-97a5ba18daef214b4cef0ab62f847b94-a3725.jpg)](https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/spring-dev-tools-97a5ba18daef214b4cef0ab62f847b94-a3725.jpg)
 
+>
+> 英语 [原文](https://www.vojtechruzicka.com/spring-boot-devtools)
+>
 如何使用DevTools进一步加快Spring Boot开发速度并提升效率？
 
 # 建立
@@ -51,9 +54,9 @@ dependencies {
 
 ### 在`IDE`中触发重新启动
 
-只要`classpaht`中的类发生了改变，就会触发重新启动。所以在IDE中只改`.java`文件不够的 ，需要更新`classpaht`中的`.class`文件。
+只要`classpath`中的类发生了改变，就会触发重新启动。所以在IDE中只改`.java`文件不够的 ，需要更新`classpaht`中的`.class`文件。
 
-使用IntelliJ IDEA时，你需要手动构建项目（*Ctrl + F9*或*Build→Build Project*），或者将IDEA设置为自动构建，你也可以打开Spring Boot运行配置并定义触发应用程序更新条件（*Ctrl + F10*）：
+使用IntelliJ IDEA时，你需要手动构建项目（`Ctrl + F9`或`Build→Build Project`），或者将IDEA设置为自动构建，你也可以打开Spring Boot运行配置并定义触发应用程序更新条件（`Ctrl + F10`）：
 
 [![Intellij IDEA Spring Boot运行配置](https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/intellij-idea-update-2a187cd547b9066b5441734203997a6f-55803.png)](https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/intellij-idea-update-2a187cd547b9066b5441734203997a6f-55803.png)
 
@@ -65,7 +68,7 @@ dependencies {
 
 ## 仅用于开发环境中
 
-Spring Boot DevTools仅用于开发环境，而不能用于生产环境。如果`Spring boot `检测到你正在生产中运行，则会自动禁用DevTools。
+Spring Boot DevTools仅用于开发环境，而不能用于生产环境。如果`Spring boot `检测到你正在生产中运行，则会自动禁用`DevTools`。
 
 为此，只要你以jar包的形式运行程序时，都会被视为在生产环境中运行，如：
 
@@ -73,7 +76,7 @@ Spring Boot DevTools仅用于开发环境，而不能用于生产环境。如果
 java -jar devtools-example-1.0.0.jar
 ```
 
-当你的应用程序通过特殊的类加载器启动时也是如此，例如在应用程序服务器上。相反，当你IDE中运行时，将被视为开发模式。使用spring-boot-plugin运行应用时也被视为开发模式：
+当你的应用程序通过特殊的类加载器启动时也是如此，例如在应用程序服务器上。相反，当你IDE中运行时，将被视为开发模式。使用`spring-boot-plugin`运行应用时也被视为开发模式：
 
 Maven的：
 
