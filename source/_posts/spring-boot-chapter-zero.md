@@ -1,4 +1,5 @@
 ---
+path: https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/jamstack-migration-netlify-4311d34cce03bd691fdb919e3f4a1dbf-a3725.jpg
 date: 2018/11/15 20:46:25
 title: SpringBoot | 第一章：第一个SpringBoot应用
 categories:
