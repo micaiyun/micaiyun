@@ -1,6 +1,6 @@
 
 ---
-path: https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/vaadin-certification-71c5ce3c346050dd9b3b4a541782d3dc-a3725.jpg
+cover: https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/vaadin-certification-71c5ce3c346050dd9b3b4a541782d3dc-a3725.jpg
 date: 2018/11/18 20:46:25
 title: SpringBoot | 第四章：日志配置
 categories:

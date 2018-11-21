@@ -1,5 +1,5 @@
 ---
-path: https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/spring-dev-tools-97a5ba18daef214b4cef0ab62f847b94-a3725.jpg
+cover: https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/spring-dev-tools-97a5ba18daef214b4cef0ab62f847b94-a3725.jpg
 date: 2018/11/18 23:46:25
 title: SpringBoot | 第五章：使用Spring Boot DevTools加快开发速度
 categories:

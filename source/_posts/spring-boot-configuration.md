@@ -1,5 +1,5 @@
 ---
-path: https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/search-7850725df08dc2e68a0ca763912969db-a3725.jpg
+cover: https://wx-10045722.cos.ap-shanghai.myqcloud.com/blog-srping-boot-1/search-7850725df08dc2e68a0ca763912969db-a3725.jpg
 date: 2018/11/17 20:46:25
 title: SpringBoot | 第三章：springboot配置详解
 categories:
